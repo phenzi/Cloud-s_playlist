@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For Anahita</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f5f0e8; /* گرم خاکستری مایل به بژ */
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .player-container {
+      background-color: white;
+      border-radius: 15px;
+      padding: 2rem;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      border: 1px solid #e0e0e0;
+      text-align: center;
+      max-width: 500px;
+      width: 90%;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      color: #355e3b; /* سبز زیتونی تیره */
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    .playlist {
+      max-height: 400px;
+      overflow-y: auto;
+      margin-bottom: 1rem;
+      padding-right: 0.5rem;
+    }
+    audio {
+      width: 100%;
+      margin: 0.5rem 0;
+      outline: none;
+    }
+    p {
+      color: #333;
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.2rem;
+    }
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #355e3b;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="player-container">
+    <h1>For Anahita</h1>
+    <div class="playlist">
+      <div>
+        <p>Pooste Shir</p>
+        <audio controls>
+          <source src="https://www.dropbox.com/scl/fi/zmlafiyyz61fds5756x7f/Ebi-Pooste-Shir.mp3?rlkey=6vvyxyxr3me0y8fbjni5iskfd&st=k9odxbw7&raw=1" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+    <p>Curated with love — play online, no download.</p>
+  </div>
+</body>
+</html>
